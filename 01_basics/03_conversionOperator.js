@@ -27,4 +27,38 @@ console.log(stringNumber);  //3
 console.log(typeof(stringNumber));  //3 
 
 
+/*              Operators       */
+
+//Arithmetic Operator
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2/2);
+console.log(2%2);
+console.log(2**2);
+
+console.log("Piyush" + " Khatri")
+console.log(2+"2")//22
+console.log("2"+2)//2
+console.log("2"+"2")   //22
+console.log(2+2+"2")  //42
+
+let value = 3
+let negValue = -value 
+console.log(negValue)//-3
+
+console.log((2+2) * (3 % 4)) //12
+console.log(+true)  //1
+
+
+//typical assignment
+let num1 = num2 = num3 = 2 + 2
+console.log(num3); // 4
+console.log(+"")  //empty string will be converted into 0 becuse arithmetic
+//operation is applied in it and empty string means false // res = 0
+
+let gameCounter = 100
+gameCounter++;
+console.log(gameCounter);  //101
+
 
