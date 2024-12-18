@@ -14,7 +14,7 @@ let isLogged = true;
 // null = standalone value
 // undefined = undefined value 
 // symbol = unique 
-console.log(typeof name);
+console.log(typeof age); 
 console.log(typeof null);
 console.log(typeof undefined);
 
