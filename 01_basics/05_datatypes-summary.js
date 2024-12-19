@@ -97,10 +97,10 @@ let obj1 = {
 }
 
 let obj2 = obj1;
-obj2 = "abc@gmail.com";
+obj2.email = "abc@gmail.com";
 
-console.log(obj1.email)
-console.log(obj2.email);
+console.log(obj1.email)  //abc@gmail.com
+console.log(obj2.email); //abc@gmail.com
 
 
 
