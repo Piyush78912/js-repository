@@ -21,5 +21,8 @@ const words = str.split(' ');
 console.log(words);
 
 let s = "             fdafasf                ";
-console.log(s.trim())
+console.log(s.trim())  //fdafasf
+
+console.log(gameName.length);  //6
+
 
