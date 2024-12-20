@@ -78,7 +78,7 @@ const users = [
 ]
 
 */
-
+                    //Topic:Destructure of Object
 const course = {
     courseName:"js in Hindi",
     price:1999,
