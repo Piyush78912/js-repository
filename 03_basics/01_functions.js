@@ -22,7 +22,7 @@ console.log(res);
 function loginUserMessage(userName){
     if(userName == undefined){
         console.log("Please Enter a user Name!")
-        return; //used to return function call if we not return then another return statement will also execute with undefined as userName
+        return; //used to return function call if we not return then another return statement will also execute with undefined as userName so yeah must use return statement without returning anything if there is more code after this if block
     }
     return `${userName} just Logged In.`;
 }
