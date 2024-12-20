@@ -31,5 +31,44 @@ function loginUserMessage(userName){
 console.log(loginUserMessage("Piyush"))
 
 
+//The rest parameter syntax allows a function to accept an indefinite number of arguments as an array, providing a way to represent variadic functions in JavaScript.
+//here ...num1 can accept any number of arguments 
+//sometimes rest parameter also known as spread operator as we used earlier
+
+function calculateCartPrice(...num1){
+    return num1;
+}
+
+//console.log(calculateCartPrice(200,300,100,400));
+
+const user = {
+    userName: "Piyush",
+    age : 21
+}
+
+function handleObject(anyObject){
+    console.log(`Hello ${anyObject.userName} your age is ${anyObject.age}`);
+}
+
+//handleObject(user); //Hello Piyush your age is 21
+//OR
+handleObject({
+    userName:"Ram",
+    age:'22'
+})  //Hello Ram your age is 22
+
+
+
+//Now lets see about how can we pass array to functions: 
+const myNewArray = [100,200,300]
+
+function returnSecondValue(getArray){
+    return `Array Second Value is: ${getArray[1]}`;
+}
+
+//console.log(returnSecondValue(myNewArray));//Array Second Value is: 200
+            //OR 
+console.log(returnSecondValue([100,200,300])); //Array Second Value is: 200
+
 
 
